@@ -1,2 +1,5 @@
-# jokenpoJavaScript
-Jokenpo para treino
+# Programa Simples de Jokenpo
+
+
+
+Feito apenas para treinar
