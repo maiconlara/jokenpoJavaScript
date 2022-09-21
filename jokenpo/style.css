@@ -1,0 +1,131 @@
+body{
+background-image: linear-gradient(to bottom right, lightgreen, skyblue);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#boxzin{
+    display:inline;
+    justify-content: center;
+}
+
+#win{
+    margin: -8px;
+    justify-content: center;
+    display: flex;
+}
+
+#lose{
+    margin: -8px;
+    justify-content: center;
+    display: flex;
+}
+
+#draw{
+    margin: -8px;
+    justify-content: center;
+    display: flex;
+}
+
+.escolhas{
+    justify-content: center;
+    display: flex;
+}
+.versus{
+    justify-content: center;
+    display: flex;
+}
+
+#boxx{
+    justify-content: center;
+    display: flex;
+}
+
+#resultado{
+        margin-top: 5px ;
+        justify-content: center;
+        display: flex;
+    
+}
+
+.btns{
+    position: absolute;
+    bottom: 6%;
+    left: 49.5%;
+    transform:  translate(-45%, -20%);
+}
+
+.textos{
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    font-size: 20px;
+    color: darkblue;
+}
+
+#resultado{
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    color: #1c1b1b;
+}
+
+#titulo{
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    color: #1c1b1b;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+}
+
+.Pedra{
+    width: 150px;
+    height: 150px;
+    display: active;
+    transition: ease-in-out 0.5s;
+}
+
+.Pedra:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.12);
+    
+}
+
+.Papel{
+    width: 150px;
+    height: 150px;
+    display: active;
+    transition: ease-in-out 0.5s;
+}
+
+.Papel:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.15);
+    
+}
+
+.Tesoura{
+    width: 150px;
+    height: 150px;
+    display: active;
+    transition: ease-in-out 0.5s;
+}
+
+.Tesoura:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.15);
+    
+}
+
+.vsimage{
+    width: 140px;
+    height: 120px;
+    display: none;
+}
+
+
+.pcchoice{
+    animation: modal .4s;
+    width: 150px;
+    height: 150px;
+    display: none;
+}

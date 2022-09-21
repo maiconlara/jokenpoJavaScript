@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+    <link rel="icon" href="favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpodre</title>
+</head>
+<body>
+
+    <h1 id="titulo">Escolha Pedra, Papel ou Tesoura!</h1>
+    <div id="boxzin">
+    <h1 id="win" class="textos">Vitorias: 0</h1>
+    <h1 id="lose" class="textos">Derrotas: 0</h1>
+    <h1 id="draw" class="textos">Empates: 0</h1>
+    </div>
+    
+    <br>
+    <br>
+    <div class="escolhas">
+        <form id="formclick" onclick="mostrar()">
+        <img src="/jokenpo/img/pedra.png" alt="Pedra" class="Pedra" id="Pedra" >
+        <img src="/jokenpo/img/papel.png" alt="Papel" class="Papel" id="Papel">
+        <img src="/jokenpo/img/tesoura.png" alt="Tesoura" class="Tesoura" id="Tesoura">
+    </form>
+    </div>
+    <br>
+    <div class="versus">
+        <img src="/jokenpo/img/VS.png" alt="Versus" id="vsimage" class="vsimage">
+    </div>
+    <br>
+    <div id="boxx">
+        <img src="" alt="ComputerChoice" id="pcchoice" class="pcchoice">
+    </div>
+<br>
+
+    <h1 id="resultado"></h1>
+    <div class="btns">
+    <input type="button" value="Limpar" id="reset-btn" onclick="resetar()">
+    <input type="button" value="Resetar" id="reset2-btn" onclick="resetarTudo()">
+    </div>
+    <script src="/jokenpo/jokenpo.js"></script>
+
+</body>
+</html>
